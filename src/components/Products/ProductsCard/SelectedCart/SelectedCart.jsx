@@ -20,7 +20,7 @@ const SelectedCart = ({ selectedCarts, setSelectedCart }) => {
 
          {
             selectedCarts.length === 0 ? <div className='flex items-center justify-center flex-col h-78 gap-3 border-b-2 border-b-red-300'>
-            <h2 className='font-bold text-yellow-200'>No Cart Selected yet</h2>
+            <h2 className='font-bold text-yellow-300'>No Cart Selected yet</h2>
             <p className='font-bold text-blue-600'>Go to Available tab to select product Cart </p>
          </div> : 
           <>
