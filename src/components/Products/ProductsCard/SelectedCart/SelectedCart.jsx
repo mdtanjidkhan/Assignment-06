@@ -8,6 +8,12 @@ const SelectedCart = ({ selectedCarts, setSelectedCart }) => {
    const handleChecout = ()=>{
       setSelectedCart([])
    }
+//   Deleted btn 
+  const handleDeleted = (product)=>{
+      const filterData = selectedCarts.filter(item=> item.name !== product.name)
+      setSelectedCart(filterData)
+  }
+
    return (
       <div className='container w-11/12 mx-auto bg-white rounded-3xl shadow-2xl p-5 md:p-10'>
          <h3 className='pr-5 font-bold text-[] text-xl'>Your Cart</h3>      
@@ -33,7 +39,7 @@ const SelectedCart = ({ selectedCarts, setSelectedCart }) => {
                         </div>
                      </div>
                      <div>
-                        <button><MdDelete className='text-red-600'></MdDelete></button>
+                        <button onClick={()=>handleDeleted(product)}><MdDelete className='text-red-600'></MdDelete></button>
                      </div>
                   </div>
                </div>
