@@ -7,6 +7,8 @@ import ProductsPricing from './components/Products/ProductsPricing';
 import { Divide } from 'lucide-react';
 import StepSection from './components/StepSection/StepSection';
 import SimplePricing from './components/SimplePricing/SimplePricing';
+import Footer from './components/FooterSection/Footer';
+import { ToastContainer } from 'react-toastify';
 
 const productsPromise = fetch('productData.json')
    .then(res => res.json())
@@ -43,6 +45,10 @@ function App() {
                <SimplePricing plansPromice={plansPromice}></SimplePricing>
             </Suspense>
          </main>
+
+         <Footer></Footer>
+
+         <ToastContainer></ToastContainer>
       </>
    )
 }

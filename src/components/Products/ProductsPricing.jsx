@@ -23,7 +23,7 @@ const ProductsPricing = ({ productsPromise, setCartCount, cartCount }) => {
             
               {productType === 'product'? <ProductCard products={products} setCartCount={setCartCount} cartCount={cartCount}
             selectedCarts={selectedCarts} setSelectedCart={setSelectedCart}
-            ></ProductCard> : <SelectedCart setSelectedCart={setSelectedCart} selectedCarts={selectedCarts} products={products}></SelectedCart>}
+            ></ProductCard> : <SelectedCart setSelectedCart={setSelectedCart} selectedCarts={selectedCarts} products={products} setCartCount={setCartCount} cartCount={cartCount}></SelectedCart>}
 
            
            
