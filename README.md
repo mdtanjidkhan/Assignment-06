@@ -1,16 +1,36 @@
-# React + Vite
+# My Project Name : Assignment-06
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Smart Pricing UI
 
-Currently, two official plugins are available:
+> A modern and responsive pricing card UI built with React & Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Smart Pricing UI** is a clean and interactive pricing section designed for SaaS or product-based websites.
+It allows users to easily compare plans, view features, and make quick purchase decisions with a smooth UI experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Technologies Used
+
+*  React.js
+*  Tailwind CSS & DauisyUI
+*  JavaScript (ES6)
+*  Responsive Design
+
+---
+
+##  Features
+
+*  Dynamic Pricing Cards using JSON data
+*  Toggle system (Monthly / Yearly / One-time plans)
+*  Fully Responsive (Mobile, Tablet, Desktop)
+
+---
+
+
+
+
+

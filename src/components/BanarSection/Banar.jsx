@@ -16,7 +16,7 @@ const Banar = () => {
                 </p>
                 <div className='flex justify-center items-center md:flex gap-4'>
                     <button className='btn p-3  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>Explore Products</button>
-                    <button className='btn p-5'><Play></Play>Watch Demo</button>
+                    <button className='btn p-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] '><Play className=''></Play>Watch Demo</button>
                 </div>
             </div>
             <div className='container-right mx-auto  md:w-[400px] shadow-2xl'>
