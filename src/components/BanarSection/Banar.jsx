@@ -20,7 +20,7 @@ const Banar = () => {
                 </div>
             </div>
             <div className='container-right mx-auto  md:w-[400px] shadow-2xl'>
-                <img src="/src/assets/banner.png" alt="banar.png" />
+                <img src="https://i.ibb.co.com/MykcNqDj/banner.png" alt="banar.png" />
             </div>
         </div>
     );
