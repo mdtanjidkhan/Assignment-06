@@ -59,12 +59,12 @@ const Navbar = ({ cartCount}) => {
              
             }
             <div>
-               <div className='p-3 hover:bg-white px-1 py-0.6'> <button className='font-bold text-black'>Login</button></div>
+               <div className='p-3 hover:bg-white px-1 py-0.5'> <button className='font-bold text-black'>Login</button></div>
               <button className='btn'>Get Started</button>
               </div>
           </ul>
 
-          <h2 className='font-medium  md:text-xl md:font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
+          <h2 className='font-medium  md:text-xl md:font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
         </span>
 
         <ul className='md:flex hidden text-[#101727] font-semibold text-[16px] justify-center items-center'>
