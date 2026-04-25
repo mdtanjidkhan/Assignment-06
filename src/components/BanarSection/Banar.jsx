@@ -7,7 +7,7 @@ const Banar = () => {
         <div className='flex flex-col gap-4 md:flex-row w-11/12 mx-auto justify-between items-center p-5 mt-30 mb-10'>
             <div className='container-left  space-y-3'>
                 <div className=' '>
-                    <h2 className='rounded-lg flex gap-1 items-center cursor-pointer px-5 py-1'><FaRegDotCircle></FaRegDotCircle> New: AI-Powered Tools Available</h2>
+                    <h2 className='flex gap-1 items-center font-bold text-green-400 '><FaRegDotCircle></FaRegDotCircle> New: AI-Powered Tools Available</h2>
                 </div>
                 <p className='text-2xl sm:text-3xl md:text-[72px] md:font-extrabold text-[#101727] leading-tight '>Supercharge Your <br></br>Digital Workflow</p>
                 <p className='text-left md:text-left text-sm md:text-[18px] font-medium text-[#627382]'>
