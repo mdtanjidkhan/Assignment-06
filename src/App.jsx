@@ -9,6 +9,7 @@ import StepSection from './components/StepSection/StepSection';
 import SimplePricing from './components/SimplePricing/SimplePricing';
 import Footer from './components/FooterSection/Footer';
 import { ToastContainer } from 'react-toastify';
+import ActiveUsers from './components/ActiveUsersSection/ActiveUsers';
 
 const productsPromise = fetch('productData.json')
    .then(res => res.json())
@@ -26,7 +27,8 @@ function App() {
             <Navbar cartCount={cartCount} setCartCount={setCartCount}></Navbar>
          </header>
          <Banar></Banar>
-
+         
+          <ActiveUsers></ActiveUsers>
 
          <main>
             <Suspense fallback={<div className='flex h-screen w-full justify-center items-center'>

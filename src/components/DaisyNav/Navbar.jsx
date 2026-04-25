@@ -53,10 +53,15 @@ const Navbar = ({ cartCount, setCartCount }) => {
           {open ? <CircleX className='md:hidden'>
           </CircleX> : <Menu className='md:hidden'></Menu>}
           <ul className={`md:hidden absolute duration-400 ${open ? 'top-20' : '-top-80'} bg-blue-400 rounded-sm p-4 font-bold text-[16px]`}>
+            
             {
               links
              
             }
+            <div>
+               <div className='p-3 hover:bg-white px-1 py-0.5'> <button className='font-bold text-black'>Login</button></div>
+              <button className='btn'>Get Started</button>
+              </div>
           </ul>
 
           <h2 className='font-medium  md:text-xl md:font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>DigiTools</h2>
