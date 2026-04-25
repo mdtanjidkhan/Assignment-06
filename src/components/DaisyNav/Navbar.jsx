@@ -76,7 +76,7 @@ const Navbar = ({ cartCount}) => {
 
         <div className='flex gap-5 mx-5 justify-center items-center'>
           <div className='relative'>
-              <img src="/src/assets/shopping-cart.png" className='w-8' alt="" />
+              <img src="https://i.ibb.co.com/4nMpzZSS/shopping-cart.png" className='w-8' alt="" />
             {
               cartCount > 0 && (
                 <span className='absolute -top-1.5 -right-1 text-white bg-red-600 px-1 py-0.05 rounded-full opacity-90'>
